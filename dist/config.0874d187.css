@@ -124,7 +124,7 @@ canvas {
 }
 .loading__bar--inner {
   height: 100%;
-  width: 50%;
+  width: 0;
   border-radius: 2px;
   background-color: #6cff8d;
 }
@@ -184,6 +184,25 @@ canvas {
 }
 .loading__counter--number {
   color: #6cff8d;
+}
+.loading__with_animation {
+  animation: with_animation 1s forwards;
+}
+@keyframes with_animation {
+  from {
+    width: 85%;
+  }
+  to {
+    width: 250px;
+  }
+}
+.loading__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85% !important;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=/config.0874d187.css.map */
