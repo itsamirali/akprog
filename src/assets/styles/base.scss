@@ -42,6 +42,14 @@ canvas {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+
 // ----------  VARIABLES    ----------//
 $green-color: #6cff8d;
 $dark-green-color: #6cff8c7a;
