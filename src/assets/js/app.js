@@ -44,6 +44,10 @@ let barInterval = setInterval(() => {
         delay: 2,
         rotate: "360deg"
     })
+    gsap.to(".header", {
+        delay: 2,
+        zIndex: 100,
+    })
 }
 }, 20);
 

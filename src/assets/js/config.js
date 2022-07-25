@@ -1,3 +1,4 @@
 import "../styles/base.scss"
 import "../styles/loader.scss"
 import "../styles/landings.scss"
+import "../styles/coolLink.scss"
