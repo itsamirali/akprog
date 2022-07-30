@@ -36,7 +36,7 @@ let barInterval = setInterval(() => {
     gsap.to(".loading", {
         duration: 1,
         delay: 2,
-        opacity: 0.5,
+        opacity: 0.2,
         background: "transparent"
     })
     gsap.to(".loading__svg", {
@@ -47,6 +47,10 @@ let barInterval = setInterval(() => {
     gsap.to(".header", {
         delay: 2,
         zIndex: 100,
+    })
+    gsap.to(".socials", {
+        delay: 2.5,
+        opacity: 1
     })
 }
 }, 20);
